@@ -42,7 +42,6 @@
     Difficulté de Sous-Classement : Hériter d'une classe Singleton peut être délicat et introduire des comportements non souhaités.
 
 ### Diagramme de classes UML du pattern
-[alt text] (./uml-singleton.png)
 
 ### Lancer le projet
 
