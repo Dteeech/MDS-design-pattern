@@ -1,0 +1,15 @@
+{
+  "name": "m_isaac_design_pattern",
+  "version": "1.0.0",
+  "description": "1. Quel(s) avantage(s) procure le fait de programmer vers une interface et non vers uneimplémentation ? Vous pouvez illustrer votre réponse avec un code source minimal et/ou avec un diagramme. 2. Pourquoi, de manière générale, vaut-il mieux préférerla composition à l’héritage ? Vouspouvez illustrer votre réponse avec un code source minimal et/ou avec un diagramme. 3. En programmation orienté objet, qu’est ce qu’une interface ? Remarque : on ne parle pasici du construct PHPinterface. ## Design pattern Singleton",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "readline-sync": "^1.4.10"
+  }
+}
