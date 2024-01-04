@@ -2,7 +2,7 @@
 - [Réponses aux questions](#réponses-aux-questions)
 - [Design pattern Singleton](#design-pattern-singleton)
   - [Contexte](#contexte)
-  - [Avantages / Inconvénients](#avantages--inconvenients)
+  - [Avantages / Inconvénients](#avantages/inconvenients)
   - [Diagramme de classes UML du pattern](#diagramme-de-classes-uml-du-pattern)
   - [Lancer le projet](#lancer-le-projet)
 - [Remarques](#remarques)
@@ -19,7 +19,7 @@
     Dans cette situation, nous sommes confrontés au besoin d'assurer qu'un utilisateur ait un seul et unique panier tout au long de sa session de navigation sur le site. Le pattern Singleton serait utile pour garantir qu'une seule instance de la classe Panier est utilisée pour gérer le panier d'un utilisateur, évitant ainsi la création de plusieurs instances dispersées et assurant la cohérence des données du panier.
    
    
-### avantages--inconvenients
+### avantages/inconvenients
 
     Avantages du Pattern Singleton :
     Accès Global : Le Singleton offre un moyen simple et partagé pour accéder à une instance unique depuis n'importe où dans le code.
