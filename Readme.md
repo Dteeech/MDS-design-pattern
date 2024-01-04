@@ -1,4 +1,11 @@
 ## Table des matières
+- [Réponses aux questions](#réponses-aux-questions)
+- [Design pattern Singleton](#design-pattern-singleton)
+  - [Contexte](#contexte)
+  - [Avantages / Inconvénients](#avantages--inconvénients)
+  - [Diagramme de classes UML du pattern](#diagramme-de-classes-uml-du-pattern)
+  - [Lancer le projet](#lancer-le-projet)
+- [Remarques](#remarques)
 ## Réponses aux questions
 1. Quel(s) avantage(s) procure le fait de programmer vers une interface et non vers uneimplémentation ? Vous pouvez illustrer votre réponse avec un code source minimal et/ou avec un diagramme.
 2. Pourquoi, de manière générale, vaut-il mieux préférerla composition à l’héritage ? Vouspouvez illustrer votre réponse avec un code source minimal et/ou avec un diagramme.
