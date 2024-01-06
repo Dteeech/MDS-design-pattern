@@ -59,3 +59,4 @@ Difficulté de Sous-Classement : Hériter d'une classe Singleton peut être dél
   4. `node app.js`
 
 ## Remarques
+Utilisation du package npm [readline sync](https://www.npmjs.com/package/readline-sync) pour faciliter le test du script à l'aide des commandes du terminal.
