@@ -15,7 +15,7 @@ Programmer vers une interface plutôt que vers une implémentation offre une fle
 
 
 ```
-javascript
+
 // Interface Clickable
 class Clickable {
     click() {
