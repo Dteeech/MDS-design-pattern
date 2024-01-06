@@ -72,6 +72,42 @@ handleElementClick(clickableArea); // Affiche 'Clickable area clicked'
 
 Préférer la composition à l'héritage offre une conception plus souple en réduisant le couplage entre les classes. Cela permet une réutilisabilité plus fine du code et évite les problèmes associés à l'héritage. Un exemple concret illustre comment utiliser la composition pour créer une classe `Car` combinant les fonctionnalités d'un moteur et de roues sans hériter de leur structure. En résumé, la composition favorise une conception modulaire et flexible du code.
 
+
+```
+class Engine {
+  start() {
+    console.log('Engine started');
+  }
+}
+
+class Wheels {
+  roll() {
+    console.log('Wheels rolling');
+  }
+}
+
+```
+Plutôt que d'utiliser l'héritage pour créer une classe `Car` qui a un moteur et des roues, nous pouvons utiliser la composition.
+
+```
+class Car {
+  constructor() {
+    this.engine = new Engine();
+    this.wheels = new Wheels();
+  }
+
+  start() {
+    this.engine.start();
+  }
+
+  drive() {
+    this.wheels.roll();
+  }
+}
+
+```
+La classe `Car` n'hérite pas de Engine ou Wheels, mais elle utilise une composition en ayant des instances de ces classes comme membres. Cela offre plus de flexibilité, car nous pourrions facilement changer le moteur ou les roues sans modifier la structure de la classe `Car`.
+
 3. _En programmation orienté objet, qu’est ce qu’une interface ? Remarque : on ne parle pasici du construct PHPinterface._
 
 
