@@ -9,9 +9,18 @@
 - [Remarques](#remarques)
 ## Réponses aux questions
 
-1. Quel(s) avantage(s) procure le fait de programmer vers une interface et non vers uneimplémentation ? Vous pouvez illustrer votre réponse avec un code source minimal et/ou avec un diagramme.
-2. Pourquoi, de manière générale, vaut-il mieux préférerla composition à l’héritage ? Vouspouvez illustrer votre réponse avec un code source minimal et/ou avec un diagramme.
-3. En programmation orienté objet, qu’est ce qu’une interface ? Remarque : on ne parle pasici du construct PHPinterface.
+1. _Quel(s) avantage(s) procure le fait de programmer vers une interface et non vers une implémentation ? Vous pouvez illustrer votre réponse avec un code source minimal et/ou avec un diagramme._
+
+Programmer vers une interface plutôt que vers une implémentation offre une flexibilité accrue dans le développement logiciel. Une interface définit ce qu'un objet doit faire, mais pas comment le faire. En utilisant des classes qui implémentent cette interface, on peut changer l'implémentation sous-jacente sans modifier le reste du code, ce qui rend le système plus modulaire, extensible et facile à maintenir. En résumé, la programmation vers une interface favorise une conception souple et adaptable du code.
+
+2. _Pourquoi, de manière générale, vaut-il mieux préférerla composition à l’héritage ? Vouspouvez illustrer votre réponse avec un code source minimal et/ou avec un diagramme._
+
+Préférer la composition à l'héritage offre une conception plus souple en réduisant le couplage entre les classes. Cela permet une réutilisabilité plus fine du code et évite les problèmes associés à l'héritage. Un exemple concret illustre comment utiliser la composition pour créer une classe `Car` combinant les fonctionnalités d'un moteur et de roues sans hériter de leur structure. En résumé, la composition favorise une conception modulaire et flexible du code.
+
+3. _En programmation orienté objet, qu’est ce qu’une interface ? Remarque : on ne parle pasici du construct PHPinterface._
+
+
+En programmation orientée objet, une interface est un contrat définissant un ensemble de méthodes abstraites que les classes concrètes doivent implémenter en spécifiant ce que les objets doivents faire sans spécifier comment ils doivent le faire. Elle favorise la cohérence, la réutilisabilité, et l'abstraction dans le code en établissant des normes communes entre les classes.
 
 ## Design pattern [Singleton](https://refactoring.guru/fr/design-patterns/singleton)
 
