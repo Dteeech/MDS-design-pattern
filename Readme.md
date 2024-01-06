@@ -56,5 +56,6 @@ Difficulté de Sous-Classement : Hériter d'une classe Singleton peut être dél
   1. cloner le projet sur votre machine avec la commande `git clone <URL du repo>`
   2. `cd <Nom du projet>`
   3. `npm i`
+  4. `node app.js`
 
 ## Remarques
