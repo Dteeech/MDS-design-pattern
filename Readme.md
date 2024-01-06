@@ -19,7 +19,7 @@
 Programmer vers une interface plutôt que vers une implémentation offre une flexibilité accrue dans le développement logiciel. Une interface définit ce qu'un objet doit faire, mais pas comment le faire. En utilisant des classes qui implémentent cette interface, on peut changer l'implémentation sous-jacente sans modifier le reste du code, ce qui rend le système plus modulaire, extensible et facile à maintenir. En résumé, la programmation vers une interface favorise une conception souple et adaptable du code.
 
 
-```
+```javascript
 
 // Interface Clickable
 class Clickable {
@@ -58,7 +58,7 @@ Dans cet exemple, chaque élément interactif (bouton, lien, zone de clic) impl�
 
 En programmant vers cette interface, nous pouvons traiter tous les éléments interactifs de manière générique, sans se soucier de l'implémentation spécifique de chacun.
 
-``` 
+```javascript
 function handleElementClick(element) {
     element.click();
 }
@@ -78,7 +78,7 @@ handleElementClick(clickableArea); // Affiche 'Clickable area clicked'
 Préférer la composition à l'héritage offre une conception plus souple en réduisant le couplage entre les classes. Cela permet une réutilisabilité plus fine du code et évite les problèmes associés à l'héritage. Un exemple concret illustre comment utiliser la composition pour créer une classe `Car` combinant les fonctionnalités d'un moteur et de roues sans hériter de leur structure. En résumé, la composition favorise une conception modulaire et flexible du code.
 
 
-```
+```javascript
 class Engine {
   start() {
     console.log('Engine started');
@@ -94,7 +94,7 @@ class Wheels {
 ```
 Plutôt que d'utiliser l'héritage pour créer une classe `Car` qui a un moteur et des roues, nous pouvons utiliser la composition.
 
-```
+```javascript
 class Car {
   constructor() {
     this.engine = new Engine();
