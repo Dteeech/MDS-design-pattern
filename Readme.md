@@ -1,4 +1,5 @@
 ## Table des matières
+===
 - [Réponses aux questions](#réponses-aux-questions)
 - [Design pattern Singleton](#design-pattern-singleton)
   - [Contexte](#contexte)
@@ -7,10 +8,13 @@
   - [Lancer le projet](#lancer-le-projet)
 - [Remarques](#remarques)
 ## Réponses aux questions
+===
 1. Quel(s) avantage(s) procure le fait de programmer vers une interface et non vers uneimplémentation ? Vous pouvez illustrer votre réponse avec un code source minimal et/ou avec un diagramme.
 2. Pourquoi, de manière générale, vaut-il mieux préférerla composition à l’héritage ? Vouspouvez illustrer votre réponse avec un code source minimal et/ou avec un diagramme.
 3. En programmation orienté objet, qu’est ce qu’une interface ? Remarque : on ne parle pasici du construct PHPinterface.
+
 ## Design pattern Singleton
+===
     
 ### contexte
 ---
