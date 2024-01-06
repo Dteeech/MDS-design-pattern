@@ -53,6 +53,8 @@ Difficulté de Sous-Classement : Hériter d'une classe Singleton peut être dél
 <img width="306" alt="SCR-20240104-kpbf" src="https://github.com/Dteeech/MDS-design-pattern/assets/100597736/18c98906-b566-435d-be67-02a44db48f41">
 
 ### Lancer le projet
-  1. cloner le projet sur votre machine avec la commande `git `
+  1. cloner le projet sur votre machine avec la commande `git clone <URL du repo>`
+  2. `cd <Nom du projet>`
+  3. `npm i`
 
 ## Remarques
