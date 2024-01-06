@@ -13,7 +13,7 @@
 ## Design pattern Singleton
     
 ### contexte
-=============
+---
     
 Dans le contexte d'une application web de commerce électronique, nous avons une classe Panier qui est responsable de la gestion des articles que les utilisateurs ajoutent à leur panier d'achat. Chaque utilisateur peut avoir un seul panier, et ce panier doit être accessible et modifiable à partir de différentes parties de l'application, telles que la page de produit, la page du panier et le processus de paiement.
 
@@ -21,7 +21,7 @@ Dans cette situation, nous sommes confrontés au besoin d'assurer qu'un utilisat
    
    
 ### Avantages-Inconvenients
-=============
+---
 
 
 Avantages du Pattern Singleton :
