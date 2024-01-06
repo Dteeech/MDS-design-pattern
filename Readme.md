@@ -164,7 +164,8 @@ Difficulté de Sous-Classement : Hériter d'une classe Singleton peut être dél
 
 ### Diagramme de classes UML du pattern
 
-<img width="306" alt="SCR-20240104-kpbf" src="https://github.com/Dteeech/MDS-design-pattern/assets/100597736/18c98906-b566-435d-be67-02a44db48f41">
+<img width="565" alt="SCR-20240106-qgap" src="https://github.com/Dteeech/MDS-design-pattern/assets/100597736/21a90022-0013-4298-b45a-5d889cce3f9a">
+
 
 ### Lancer le projet
   1. cloner le projet sur votre machine avec la commande `git clone <URL du repo>`
