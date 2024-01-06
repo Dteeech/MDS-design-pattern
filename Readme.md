@@ -1,3 +1,8 @@
+# MyDigitalSchool - Design Patterns
+
+**Date:** 15/12/23  
+**Auteur:** Isaac Marshall
+
 ## Table des matières
 
 - [Réponses aux questions](#réponses-aux-questions)
@@ -108,7 +113,8 @@ class Car {
 ```
 La classe `Car` n'hérite pas de Engine ou Wheels, mais elle utilise une composition en ayant des instances de ces classes comme membres. Cela offre plus de flexibilité, car nous pourrions facilement changer le moteur ou les roues sans modifier la structure de la classe `Car`.
 
-3. _En programmation orienté objet, qu’est ce qu’une interface ? Remarque : on ne parle pasici du construct PHPinterface._
+
+3. _En programmation orienté objet, qu’est ce qu’une interface ? Remarque : on ne parle pas ici du construct PHPinterface._
 
 
 En programmation orientée objet, une interface est un contrat définissant un ensemble de méthodes abstraites que les classes concrètes doivent implémenter en spécifiant ce que les objets doivents faire sans spécifier comment ils doivent le faire. Elle favorise la cohérence, la réutilisabilité, et l'abstraction dans le code en établissant des normes communes entre les classes.
@@ -119,7 +125,7 @@ En programmation orientée objet, une interface est un contrat définissant un e
 ### Contexte
 
     
-Dans le contexte d'une application web de commerce en ligne, nous avons une classe Panier qui est responsable de la gestion des articles que les utilisateurs ajoutent à leur panier d'achat. Chaque utilisateur peut avoir un seul panier, et ce panier doit être accessible et modifiable à partir de différentes parties de l'application, telles que la page de produit, la page du panier et le processus de paiement.
+Dans le contexte d'une application web de commerce en ligne par exemple, nous avons une classe Panier qui est responsable de la gestion des articles que les utilisateurs ajoutent à leur panier d'achat. Chaque utilisateur peut avoir un seul panier, et ce panier doit être accessible et modifiable à partir de différentes parties de l'application, telles que la page de produit, la page du panier et le processus de paiement.
 
 Dans cette situation, nous sommes confrontés au besoin d'assurer qu'un utilisateur ait un seul et unique panier tout au long de sa session de navigation sur le site. Le pattern Singleton serait utile pour garantir qu'une seule instance de la classe Panier est utilisée pour gérer le panier d'un utilisateur, évitant ainsi la création de plusieurs instances dispersées et assurant la cohérence des données du panier.
    
