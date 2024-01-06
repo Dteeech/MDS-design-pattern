@@ -14,7 +14,7 @@
 Programmer vers une interface plutôt que vers une implémentation offre une flexibilité accrue dans le développement logiciel. Une interface définit ce qu'un objet doit faire, mais pas comment le faire. En utilisant des classes qui implémentent cette interface, on peut changer l'implémentation sous-jacente sans modifier le reste du code, ce qui rend le système plus modulaire, extensible et facile à maintenir. En résumé, la programmation vers une interface favorise une conception souple et adaptable du code.
 
 
-`// Interface Clickable
+```// Interface Clickable
 class Clickable {
     click() {
         throw new Error('Not implemented');
@@ -44,7 +44,7 @@ class ClickableArea extends Clickable {
         // Logique spécifique à la zone de clic
     }
 }
-`
+```
 
 2. _Pourquoi, de manière générale, vaut-il mieux préférerla composition à l’héritage ? Vouspouvez illustrer votre réponse avec un code source minimal et/ou avec un diagramme._
 
