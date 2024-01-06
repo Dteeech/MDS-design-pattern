@@ -21,25 +21,25 @@ Dans cette situation, nous sommes confrontés au besoin d'assurer qu'un utilisat
    
 ### Avantages-Inconvenients
 
-    Avantages du Pattern Singleton :
-    Accès Global : Le Singleton offre un moyen simple et partagé pour accéder à une instance unique depuis n'importe où dans le code.
+Avantages du Pattern Singleton :
+Accès Global : Le Singleton offre un moyen simple et partagé pour accéder à une instance unique depuis n'importe où dans le code.
 
-    Économie de Ressources : En assurant qu'il n'y a qu'une seule instance, le Singleton économise la mémoire et améliore les performances.
+Économie de Ressources : En assurant qu'il n'y a qu'une seule instance, le Singleton économise la mémoire et améliore les performances.
 
-    Facilité de Gestion : La gestion d'une ressource unique est centralisée, simplifiant les mises à jour et modifications.
+Facilité de Gestion : La gestion d'une ressource unique est centralisée, simplifiant les mises à jour et modifications.
 
-    Contrôle d'Accès : Il peut être mis en place pour éviter les problèmes liés à un accès simultané de plusieurs parties du programme.
+Contrôle d'Accès : Il peut être mis en place pour éviter les problèmes liés à un accès simultané de plusieurs parties du programme.
 
-    Inconvénients du Pattern Singleton :
-    Couplage Fort : Les parties de l'application dépendent fortement du Singleton, ce qui peut rendre le code moins flexible.
+Inconvénients du Pattern Singleton :
+Couplage Fort : Les parties de l'application dépendent fortement du Singleton, ce qui peut rendre le code moins flexible.
 
-    Testabilité Réduite : Tester les parties du code dépendant du Singleton peut être plus complexe.
+Testabilité Réduite : Tester les parties du code dépendant du Singleton peut être plus complexe.
 
-    État Global : Le Singleton crée un état global, augmentant le risque d'effets secondaires imprévus.
+État Global : Le Singleton crée un état global, augmentant le risque d'effets secondaires imprévus.
 
-    Violation du Principe d'Inversion de Contrôle : Le Singleton peut aller à l'encontre du principe d'inversion de contrôle en introduisant une dépendance globale.
+Violation du Principe d'Inversion de Contrôle : Le Singleton peut aller à l'encontre du principe d'inversion de contrôle en introduisant une dépendance globale.
 
-    Difficulté de Sous-Classement : Hériter d'une classe Singleton peut être délicat et introduire des comportements non souhaités.
+Difficulté de Sous-Classement : Hériter d'une classe Singleton peut être délicat et introduire des comportements non souhaités.
 
 ### Diagramme de classes UML du pattern
 
