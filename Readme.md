@@ -48,6 +48,26 @@ class ClickableArea extends Clickable {
 }
 ```
 
+
+Dans cet exemple, chaque élément interactif (bouton, lien, zone de clic) implémente l'interface Clickable, ce qui garantit que chaque élément a une méthode click().
+
+En programmant vers cette interface, nous pouvons traiter tous les éléments interactifs de manière générique, sans se soucier de l'implémentation spécifique de chacun.
+
+``` 
+function handleElementClick(element) {
+    element.click();
+}
+
+const button = new Button();
+const link = new Link();
+const clickableArea = new ClickableArea();
+
+handleElementClick(button);        // Affiche 'Button clicked'
+handleElementClick(link);          // Affiche 'Link clicked'
+handleElementClick(clickableArea); // Affiche 'Clickable area clicked'
+
+```
+
 2. _Pourquoi, de manière générale, vaut-il mieux préférerla composition à l’héritage ? Vouspouvez illustrer votre réponse avec un code source minimal et/ou avec un diagramme._
 
 Préférer la composition à l'héritage offre une conception plus souple en réduisant le couplage entre les classes. Cela permet une réutilisabilité plus fine du code et évite les problèmes associés à l'héritage. Un exemple concret illustre comment utiliser la composition pour créer une classe `Car` combinant les fonctionnalités d'un moteur et de roues sans hériter de leur structure. En résumé, la composition favorise une conception modulaire et flexible du code.
