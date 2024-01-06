@@ -14,7 +14,7 @@
 - [Remarques](#remarques)
 ## Réponses aux questions
 
-1. _Quel(s) avantage(s) procure le fait de programmer vers une interface et non vers une implémentation ? Vous pouvez illustrer votre réponse avec un code source minimal et/ou avec un diagramme._
+1. **Quel(s) avantage(s) procure le fait de programmer vers une interface et non vers une implémentation ? Vous pouvez illustrer votre réponse avec un code source minimal et/ou avec un diagramme.**
 
 Programmer vers une interface plutôt que vers une implémentation offre une flexibilité accrue dans le développement logiciel. Une interface définit ce qu'un objet doit faire, mais pas comment le faire. En utilisant des classes qui implémentent cette interface, on peut changer l'implémentation sous-jacente sans modifier le reste du code, ce qui rend le système plus modulaire, extensible et facile à maintenir. En résumé, la programmation vers une interface favorise une conception souple et adaptable du code.
 
@@ -73,7 +73,7 @@ handleElementClick(clickableArea); // Affiche 'Clickable area clicked'
 
 ```
 
-2. _Pourquoi, de manière générale, vaut-il mieux préférer la composition à l’héritage ? Vous pouvez illustrer votre réponse avec un code source minimal et/ou avec un diagramme._
+2. **Pourquoi, de manière générale, vaut-il mieux préférer la composition à l’héritage ? Vous pouvez illustrer votre réponse avec un code source minimal et/ou avec un diagramme.**
 
 Préférer la composition à l'héritage offre une conception plus souple en réduisant le couplage entre les classes. Cela permet une réutilisabilité plus fine du code et évite les problèmes associés à l'héritage. Un exemple concret illustre comment utiliser la composition pour créer une classe `Car` combinant les fonctionnalités d'un moteur et de roues sans hériter de leur structure. En résumé, la composition favorise une conception modulaire et flexible du code.
 
@@ -114,7 +114,7 @@ class Car {
 La classe `Car` n'hérite pas de Engine ou Wheels, mais elle utilise une composition en ayant des instances de ces classes comme membres. Cela offre plus de flexibilité, car nous pourrions facilement changer le moteur ou les roues sans modifier la structure de la classe `Car`.
 
 
-3. _En programmation orienté objet, qu’est ce qu’une interface ? Remarque : on ne parle pas ici du construct PHPinterface._
+3. **En programmation orienté objet, qu’est ce qu’une interface ? Remarque : on ne parle pas ici du construct PHPinterface.**
 
 
 En programmation orientée objet, une interface est un contrat définissant un ensemble de méthodes abstraites que les classes concrètes doivent implémenter en spécifiant ce que les objets doivents faire sans spécifier comment ils doivent le faire. Elle favorise la cohérence, la réutilisabilité, et l'abstraction dans le code en établissant des normes communes entre les classes.
